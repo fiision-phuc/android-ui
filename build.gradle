@@ -13,7 +13,6 @@ android {
         targetSdkVersion rootProject.ext.targetSDKVersion
     }
     dexOptions {
-        incremental true
         preDexLibraries false
     }
 }
